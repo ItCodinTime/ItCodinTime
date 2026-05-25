@@ -9,5 +9,5 @@
   ·
   <a href="https://www.linkedin.com/in/goutham-ronanki">LinkedIn</a>
   ·
-  <a href="mailto:gouthamronanki@gmail.com">Email</a>
+  <a href="mailto:gouthamkrishnaronanki@gmail.com">Email</a>
 </p>

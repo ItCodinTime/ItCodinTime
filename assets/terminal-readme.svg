@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="880" viewBox="0 0 1600 880" role="img" aria-labelledby="title desc">
   <title id="title">Goutham Ronanki terminal profile</title>
-  <desc id="desc">A neofetch-style GitHub profile card with ASCII portrait art and public GitHub stats.</desc>
+  <desc id="desc">A neofetch-style GitHub profile card with an animated ASCII donut and public GitHub stats.</desc>
   <style>
     .bg { fill: #0d1117; }
     .fg { fill: #c9d1d9; }
@@ -17,63 +17,183 @@
   <rect class="bg" width="1600" height="880"/>
   <rect x="1" y="1" width="1598" height="878" fill="none" stroke="#161b22" stroke-width="2"/>
 
-  <g>
-    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 330 410" to="360 330 410" dur="6s" repeatCount="indefinite"/>
+  <g opacity="1">
+    <animate attributeName="opacity" dur="1.2s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.166667;0.333333;0.5;0.666667;0.833333;1" values="1;0;0;0;0;0;1"/>
     <text class="ascii fg">
-      <tspan x="82" y="210">                      @</tspan>
-      <tspan x="82" y="232">               $$$$$$#$#$ $ $ $</tspan>
-      <tspan x="82" y="254">           #$$#=#=#!**#*# ##$#$###$</tspan>
-      <tspan x="82" y="276">         *#*##*:*:!:!!~!~!~!~*=*!#!#*#</tspan>
-      <tspan x="82" y="298">       **!!*:!~!!==.==.=.==.=!!~!:***##</tspan>
-      <tspan x="82" y="320">      !!!!:=!,;,:::.::.::.::.:=;,!-!:****</tspan>
-      <tspan x="82" y="342">     =!===;;::~~~~,~,,.,~,~~~.:.;.;==!!!!*</tspan>
-      <tspan x="82" y="364">    ===;;;::~~,,,,........,.,,,~~::;;===!!=</tspan>
-      <tspan x="82" y="386">    =;;;;:~~--.................,,~~::;,====</tspan>
-      <tspan x="82" y="408">    ;;:::~--,...................,-~~::;;,;=;</tspan>
-      <tspan x="82" y="430">    ::::~.-,.......        ......,-.~:.:;;;;</tspan>
-      <tspan x="82" y="452">    ::::~~--,.....          .....,,-~~:::;::</tspan>
-      <tspan x="82" y="474">    -~~~~~---,,.,~:         -....,-~.~:::::~</tspan>
-      <tspan x="82" y="496">     -~~~~:~~~~~:;=***=  !!=:--,---~.~~~~~~</tspan>
-      <tspan x="82" y="518">      -~~~:::;;==!##$@@$$$*!!;:~::~~~~~~~-</tspan>
-      <tspan x="82" y="540">       ,-~::;;==!*#$$$$$$##*!=;;:::~~~~-,</tspan>
-      <tspan x="82" y="562">        .,~~;;==!!*######***!==;:::~---.</tspan>
-      <tspan x="82" y="584">          ..,~:;;=!****!!*!==;;;:~~-..</tspan>
-      <tspan x="82" y="606">             ..,-::;;;;;;;;;::~,-,..</tspan>
-      <tspan x="82" y="628">                  . ,,,,,,,,..</tspan>
+      <tspan x="82" y="210">                 @@ @$ $$ @@ $</tspan>
+      <tspan x="82" y="232">            $$$$$$$### ###$#$$$$ $</tspan>
+      <tspan x="82" y="254">          $$#####**!!! !!!!,**###$$#</tspan>
+      <tspan x="82" y="276">        #####**!!!!==:=====!!!!**####*</tspan>
+      <tspan x="82" y="298">       ###**!!!==::::~~~~::::==!!!*####</tspan>
+      <tspan x="82" y="320">     !*****!==;;~~~,,,,,,,,,~~;===!*****!</tspan>
+      <tspan x="82" y="342">     ****!!==;::--..........--::;==!!****</tspan>
+      <tspan x="82" y="364">    !****!!!=;:-,............,-~;==!!****!</tspan>
+      <tspan x="82" y="386">    !!**!!!==;~-,..        ..,,~:;=!!!***!</tspan>
+      <tspan x="82" y="408">   :!!!*!!!.==;:,.          ..~:;=.!!!*!!!:</tspan>
+      <tspan x="82" y="430">   ~=!!!*!!.!!=;:-          ~-:;==!!!!!!!=;</tspan>
+      <tspan x="82" y="452">    ;=!!*****!!!!==        :;;==!!****!!=;</tspan>
+      <tspan x="82" y="474">    :;!!!*****#*####*!*!!**####******!!==:</tspan>
+      <tspan x="82" y="496">    -;;!!!**####$$$$$@@@$$$$#####***!!!=:-</tspan>
+      <tspan x="82" y="518">      ~;=!!**###$$$$@@@@@@$$$####**!!==:</tspan>
+      <tspan x="82" y="540">       ~:==!!*###$$$$$$$$$$$$##***!=;;,-</tspan>
+      <tspan x="82" y="562">        ,:~==!***#*########****!!=;;:-</tspan>
+      <tspan x="82" y="584">           ~~:=:!!!******!*!!!==~:~.</tspan>
+      <tspan x="82" y="606">             ,.~~:;; ;;; ;;.::~,,</tspan>
+      <tspan x="82" y="628">                 .,,,--- -, .</tspan>
+    </text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="1.2s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.166667;0.333333;0.5;0.666667;0.833333;1" values="0;1;0;0;0;0;0"/>
+    <text class="ascii fg">
+      <tspan x="82" y="210">           ###$#$#$#$#$#$#$# #=#*$*$</tspan>
+      <tspan x="82" y="232">         ##!*#**:!;!!~*~*~*~*~*:######</tspan>
+      <tspan x="82" y="254">       ****!=;!!;;,;;.=.;.;;!!,!*!*;*!#*</tspan>
+      <tspan x="82" y="276">      !!!!==;;;::.:::.:.::.::;;.,==!:****</tspan>
+      <tspan x="82" y="298">     =!===;;:.:-.---.---.--.-.::;;.=!!!!!!</tspan>
+      <tspan x="82" y="320">     ==;;;:~~~,,,,........,,,--~::;;.==:!!!</tspan>
+      <tspan x="82" y="342">    ;;;:::~~,,................,,~~::;;;=====</tspan>
+      <tspan x="82" y="364">    ;:;~:~--....................,,~~:::;;;=;</tspan>
+      <tspan x="82" y="386">    :::~~~-,.......        ......,-~~:::;;;;</tspan>
+      <tspan x="82" y="408">    ~:~~~---,.....          .....,,-~.~::;::</tspan>
+      <tspan x="82" y="430">     ~~~~~--,,-~,~:         ,....,,-.~~:::::</tspan>
+      <tspan x="82" y="452">     --~~~~~~~~~:;!!***==!!=:,~,,--~~~~~~~~</tspan>
+      <tspan x="82" y="474">      .-~~:::;;;!**$$@@$$#*!=;~~~~~~~~~~~-,</tspan>
+      <tspan x="82" y="496">       .,~~:;;==!*#$$$$$$#*!!=;:::~~~~~--</tspan>
+      <tspan x="82" y="518">         .-~~:;=!!!######**!!=;;::~~---,</tspan>
+      <tspan x="82" y="540">            ,-:;;==*****==!==;::~~~-..</tspan>
+      <tspan x="82" y="562">              .,--::;;;;;;;;::--,...</tspan>
+      <tspan x="82" y="584">                   .....,,,,...</tspan>
+    </text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="1.2s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.166667;0.333333;0.5;0.666667;0.833333;1" values="0;0;1;0;0;0;0"/>
+    <text class="ascii fg">
+      <tspan x="82" y="210">          ###$#$#$#$#$#$@@$$@$$$ $</tspan>
+      <tspan x="82" y="232">        ***!*!*!=!;#::*:*#:#$= #$**$</tspan>
+      <tspan x="82" y="254">       !=!!====:=:=!,!,!,,,*,~#~:#$=*#</tspan>
+      <tspan x="82" y="276">      =;;;::;;;~;-;,=.=...!..*.,*-:;#=*#*</tspan>
+      <tspan x="82" y="298">      :::~~~~~~-~~..;.;..=.=!.!*.,!*~;*;**</tspan>
+      <tspan x="82" y="320">      ~--,,,,,,.,,.~.~.~:.:..;..=.,,!*~:*=*</tspan>
+      <tspan x="82" y="342">      ,-,............,,..~..:..;..=.,-=!:!*!=</tspan>
+      <tspan x="82" y="364">      ,.................,.,~.~:.:;..=,,=!~!!=</tspan>
+      <tspan x="82" y="386">       .....................,.-..~.;.,;-;=~===</tspan>
+      <tspan x="82" y="408">        ...........:=!.......,,.-..~:.:;-;;~;;</tspan>
+      <tspan x="82" y="430">         .......,-:!*#$$#......,,--.~.~,:,:;:;</tspan>
+      <tspan x="82" y="452">          ...,,-~;=!#$$@$#*......,.,.--~.:::~~</tspan>
+      <tspan x="82" y="474">            ..,-~;!**####!;,........,.-.-~.~~</tspan>
+      <tspan x="82" y="496">              .,-:;!=*!=!=:-.........,,,----,</tspan>
+      <tspan x="82" y="518">                 .,~:==;;::-............,,,.</tspan>
+      <tspan x="82" y="540">                    ..,~--~,,.............</tspan>
+      <tspan x="82" y="562">                        ...............</tspan>
+    </text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="1.2s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.166667;0.333333;0.5;0.666667;0.833333;1" values="0;0;0;1;0;0;0"/>
+    <text class="ascii fg">
+      <tspan x="82" y="210">          #$$$@@@@@@@$$#</tspan>
+      <tspan x="82" y="232">        !###$$$*$$!$!$$$#$#</tspan>
+      <tspan x="82" y="254">        =***###!#$==;$$:$$##*</tspan>
+      <tspan x="82" y="276">       ;;==:*=*;=;#$:~,$$-$$#*</tspan>
+      <tspan x="82" y="298">       ~;;~=-!~:*::#~#....$-$##!</tspan>
+      <tspan x="82" y="320">        -~;;=,,!--*~~..#.#..#-##*</tspan>
+      <tspan x="82" y="342">        .-~~.=..!.,,*.*..*.#..,-#*=!</tspan>
+      <tspan x="82" y="364">         ..-~.:=..!.....*....*#.,:**=</tspan>
+      <tspan x="82" y="386">           .-~..:;..=.!...!*....**~:*=</tspan>
+      <tspan x="82" y="408">            .,.~...;....!....!.*.,**:!=</tspan>
+      <tspan x="82" y="430">             .,..-:..;=.....!...,!--~!=;</tspan>
+      <tspan x="82" y="452">               .,.-~....;.=...=!---!!~!=;</tspan>
+      <tspan x="82" y="474">                .,..-~.:..;-=.,=;=:~~=:=;</tspan>
+      <tspan x="82" y="496">                  ...,.-:.....;.=,~==~=~;</tspan>
+      <tspan x="82" y="518">                   ....,-.~.:..:.;..;;-;::</tspan>
+      <tspan x="82" y="540">                     .....-.~~...::..:;:~~</tspan>
+      <tspan x="82" y="562">                      .....,.-.~..~:.~.~~</tspan>
+      <tspan x="82" y="584">                        ......,,-,-.~---</tspan>
+      <tspan x="82" y="606">                          .......,.,.,,</tspan>
+      <tspan x="82" y="628">                              ......</tspan>
+    </text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="1.2s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.166667;0.333333;0.5;0.666667;0.833333;1" values="0;0;0;0;1;0;0"/>
+    <text class="ascii fg">
+      <tspan x="82" y="210">          $@@@@@$$$###</tspan>
+      <tspan x="82" y="232">       ##$$@@!@$$$*#*!!=</tspan>
+      <tspan x="82" y="254">      *#$;$:$:$$;$=#*!;::</tspan>
+      <tspan x="82" y="276">     !*#$-$,$-$$-#~#*!;:,~;</tspan>
+      <tspan x="82" y="298">     !*##.$.$.$.$#.***;:.-:</tspan>
+      <tspan x="82" y="320">    =!*#..#.$.$.#.#*.!!;..~:</tspan>
+      <tspan x="82" y="342">    =,!*#...#.#.#.#.*!==:.-:;</tspan>
+      <tspan x="82" y="364">    ;=.*.*#......#.*.*!=;,~:;=</tspan>
+      <tspan x="82" y="386">    ;=!..*.*.#.#.....*.!=:;==!</tspan>
+      <tspan x="82" y="408">    ~;=!......*.*.*.*..!=;*###!</tspan>
+      <tspan x="82" y="430">    ~:..!.!.*......*.*!..=;@$$#!</tspan>
+      <tspan x="82" y="452">     :;=.....!.*.*....!!=.=:@$$*</tspan>
+      <tspan x="82" y="474">      ~:;=.!......!.!...!==;:###;</tspan>
+      <tspan x="82" y="496">       ...;.=.!.!..!.!-!====;:=!!</tspan>
+      <tspan x="82" y="518">       ~:;.....=.!....=.=.=;;;;;=:</tspan>
+      <tspan x="82" y="540">        ,~:.;;.....==..=.=.=;;;;;:</tspan>
+      <tspan x="82" y="562">         .,-~:.;.;..;.=.;.;;;;;::-</tspan>
+      <tspan x="82" y="584">          .,-~.~:.;..;.;.;.;.:::~,</tspan>
+      <tspan x="82" y="606">            ..,-~.~.:.:.::::::~~-</tspan>
+      <tspan x="82" y="628">             ...,.-~.~-.~-~-~--,</tspan>
+    </text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="1.2s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.166667;0.333333;0.5;0.666667;0.833333;1" values="0;0;0;0;0;1;0"/>
+    <text class="ascii fg">
+      <tspan x="82" y="210">          $@@$@@$$$####$##</tspan>
+      <tspan x="82" y="232">       $$$$@$$$#;####!!!!!**#</tspan>
+      <tspan x="82" y="254">     #$$$$:$$##-*#!!!==;=====!*</tspan>
+      <tspan x="82" y="276">    ##$$$-#$#.**!!==;;;~~~~;;==!</tspan>
+      <tspan x="82" y="298">   *####,#.#.*!!==;;~~------::;;=</tspan>
+      <tspan x="82" y="320">  **###.#.*.*!.=.;~~-......,,~~:==</tspan>
+      <tspan x="82" y="342"> !**#.##.*.*.!==;:~-........,,~:;;;</tspan>
+      <tspan x="82" y="364"> !*,**.*...*!.=;;:-,.........-~:;=;</tspan>
+      <tspan x="82" y="386">;:-.... .*!.!.=;::,.    ....,~;;===</tspan>
+      <tspan x="82" y="408">;!!*.*.**.!.!.=;:~-.     .-~;;==!==~</tspan>
+      <tspan x="82" y="430">;=!!.!.!!.!.!.=;:~-.     ;!*###***=~</tspan>
+      <tspan x="82" y="452">:==.!!.!.!!.=.=;:::-    !#$$$$$$#!=</tspan>
+      <tspan x="82" y="474"> :;==.=!.!.!===.;;:~::=!#$$@@@$#*!;</tspan>
+      <tspan x="82" y="496"> ~: .==.==.=.=.=;;;;;;=!*#$$$$$#*=~</tspan>
+      <tspan x="82" y="518">  -;...;=.=.=.===;;;;==!**#####*=;</tspan>
+      <tspan x="82" y="540">   ::.;.;;.==;.=.======!!!**!!!;;.</tspan>
+      <tspan x="82" y="562">    ~:.:.:;.;;;.;.;;=====!!===;~</tspan>
+      <tspan x="82" y="584">      -~:~:.:::;;;;;;;;;;;;;;~.</tspan>
+      <tspan x="82" y="606">       .,--~.~~:::~:::~~:::-,.</tspan>
+      <tspan x="82" y="628">          .,-,-,,--~~---,..</tspan>
     </text>
   </g>
 
-  <text class="term muted" x="182" y="722">spinning-donut.exe --ascii</text>
+  <text class="term muted" x="182" y="722">donut.c --ascii --animated</text>
 
   <text class="head fg" x="660" y="56">goutham@ItCodinTime <tspan class="muted">--------------------------</tspan></text>
 
   <text class="term">
-    <tspan x="670" y="96" class="muted">.</tspan><tspan x="700" class="orange">OS:</tspan><tspan x="812" class="muted">.....................</tspan><tspan x="1118" class="blue">macOS, Linux, Web</tspan>
-    <tspan x="670" y="132" class="muted">.</tspan><tspan x="700" class="orange">Uptime:</tspan><tspan x="812" class="muted">.................</tspan><tspan x="1118" class="blue">since 2023-07-28</tspan>
-    <tspan x="670" y="168" class="muted">.</tspan><tspan x="700" class="orange">Host:</tspan><tspan x="812" class="muted">...................</tspan><tspan x="1118" class="blue">PWSHS '27 / founder / researcher</tspan>
-    <tspan x="670" y="204" class="muted">.</tspan><tspan x="700" class="orange">Kernel:</tspan><tspan x="812" class="muted">.................</tspan><tspan x="1118" class="blue">AI systems, RAG, NEAT experiments</tspan>
-    <tspan x="670" y="240" class="muted">.</tspan><tspan x="700" class="orange">IDE:</tspan><tspan x="812" class="muted">....................</tspan><tspan x="1118" class="blue">VS Code, Cursor, GitHub</tspan>
+    <tspan x="670" y="96" class="muted">.</tspan><tspan x="700" class="orange">OS:</tspan><tspan x="1010" class="blue">macOS, Linux, Web</tspan>
+    <tspan x="670" y="132" class="muted">.</tspan><tspan x="700" class="orange">Uptime:</tspan><tspan x="1010" class="blue">since 2023-07-28</tspan>
+    <tspan x="670" y="168" class="muted">.</tspan><tspan x="700" class="orange">Host:</tspan><tspan x="1010" class="blue">PWSHS '27 / founder / researcher</tspan>
+    <tspan x="670" y="204" class="muted">.</tspan><tspan x="700" class="orange">Kernel:</tspan><tspan x="1010" class="blue">AI systems, RAG, NEAT experiments</tspan>
+    <tspan x="670" y="240" class="muted">.</tspan><tspan x="700" class="orange">IDE:</tspan><tspan x="1010" class="blue">VS Code, Cursor, GitHub</tspan>
 
-    <tspan x="670" y="312" class="muted">.</tspan><tspan x="700" class="orange">Languages.Programming:</tspan><tspan x="1030" class="muted">.....</tspan><tspan x="1118" class="blue">Python, TypeScript, JavaScript</tspan>
-    <tspan x="670" y="348" class="muted">.</tspan><tspan x="700" class="orange">Languages.Computer:</tspan><tspan x="1030" class="muted">........</tspan><tspan x="1118" class="blue">HTML, CSS, SQL, Java, C++</tspan>
-    <tspan x="670" y="384" class="muted">.</tspan><tspan x="700" class="orange">Languages.Real:</tspan><tspan x="1030" class="muted">............</tspan><tspan x="1118" class="blue">English, debate evidence</tspan>
+    <tspan x="670" y="312" class="muted">.</tspan><tspan x="700" class="orange">Languages.Programming:</tspan><tspan x="1010" class="blue">Python, TypeScript, JavaScript</tspan>
+    <tspan x="670" y="348" class="muted">.</tspan><tspan x="700" class="orange">Languages.Computer:</tspan><tspan x="1010" class="blue">HTML, CSS, SQL, Java, C++</tspan>
+    <tspan x="670" y="384" class="muted">.</tspan><tspan x="700" class="orange">Languages.Real:</tspan><tspan x="1010" class="blue">English, debate evidence</tspan>
 
-    <tspan x="670" y="456" class="muted">.</tspan><tspan x="700" class="orange">Focus.Software:</tspan><tspan x="1030" class="muted">............</tspan><tspan x="1118" class="blue">Agents, RAG, automation loops</tspan>
-    <tspan x="670" y="492" class="muted">.</tspan><tspan x="700" class="orange">Focus.Hardware:</tspan><tspan x="1030" class="muted">............</tspan><tspan x="1118" class="blue">FTC 30801 + 11419 strategy</tspan>
+    <tspan x="670" y="456" class="muted">.</tspan><tspan x="700" class="orange">Focus.Software:</tspan><tspan x="1010" class="blue">Agents, RAG, automation loops</tspan>
+    <tspan x="670" y="492" class="muted">.</tspan><tspan x="700" class="orange">Focus.Hardware:</tspan><tspan x="1010" class="blue">FTC 30801 + 11419 strategy</tspan>
   </text>
 
   <text class="head fg" x="660" y="560"><tspan class="muted">-</tspan> Contact <tspan class="muted">------------------------------------</tspan></text>
   <text class="term">
-    <tspan x="670" y="604" class="muted">.</tspan><tspan x="700" class="orange">Email.Personal:</tspan><tspan x="1030" class="muted">..........</tspan><tspan x="1118" class="blue">gouthamronanki@gmail.com</tspan>
-    <tspan x="670" y="640" class="muted">.</tspan><tspan x="700" class="orange">LinkedIn:</tspan><tspan x="1030" class="muted">................</tspan><tspan x="1118" class="blue">goutham-ronanki</tspan>
-    <tspan x="670" y="676" class="muted">.</tspan><tspan x="700" class="orange">GitHub:</tspan><tspan x="1030" class="muted">..................</tspan><tspan x="1118" class="blue">ItCodinTime</tspan>
+    <tspan x="670" y="604" class="muted">.</tspan><tspan x="700" class="orange">Email.Personal:</tspan><tspan x="1010" class="blue">gouthamkrishnaronanki@gmail.com</tspan>
+    <tspan x="670" y="640" class="muted">.</tspan><tspan x="700" class="orange">LinkedIn:</tspan><tspan x="1010" class="blue">goutham-ronanki</tspan>
+    <tspan x="670" y="676" class="muted">.</tspan><tspan x="700" class="orange">GitHub:</tspan><tspan x="1010" class="blue">ItCodinTime</tspan>
   </text>
 
   <text class="head fg" x="660" y="716"><tspan class="muted">-</tspan> GitHub Stats <tspan class="muted">-------------------------------</tspan></text>
   <text class="term">
-    <tspan x="670" y="760" class="muted">.</tspan><tspan x="700" class="orange">Repos:</tspan><tspan x="790" class="muted">....</tspan><tspan x="862" class="blue">20</tspan><tspan x="920" class="fg">{</tspan><tspan class="orange">original:</tspan><tspan class="blue"> 15</tspan><tspan class="fg">, </tspan><tspan class="orange">forks:</tspan><tspan class="blue"> 5</tspan><tspan class="fg">}</tspan><tspan x="1295" class="fg">|</tspan><tspan x="1332" class="orange">Stars:</tspan><tspan x="1516" class="blue">0</tspan>
-    <tspan x="670" y="794" class="muted">.</tspan><tspan x="700" class="orange">Public commits:</tspan><tspan x="960" class="muted">..........</tspan><tspan x="1118" class="blue">239</tspan><tspan x="1295" class="fg">|</tspan><tspan x="1332" class="orange">Followers:</tspan><tspan x="1516" class="blue">0</tspan>
-    <tspan x="670" y="828" class="muted">.</tspan><tspan x="700" class="orange">Lines of Code:</tspan><tspan x="960" class="muted">.........</tspan><tspan x="1118" class="blue">32,127</tspan><tspan class="fg"> (</tspan><tspan class="green">original public</tspan><tspan class="fg">)</tspan>
-    <tspan x="670" y="862" class="muted">.</tspan><tspan x="700" class="orange">Code footprint:</tspan><tspan x="960" class="muted">........</tspan><tspan x="1118" class="blue">15.3 MB</tspan><tspan class="fg"> original | </tspan><tspan class="blue">1.07 GB</tspan><tspan class="fg"> total</tspan>
+    <tspan x="670" y="760" class="muted">.</tspan><tspan x="700" class="orange">Repos:</tspan><tspan x="1010" class="blue">20</tspan><tspan class="fg"> {</tspan><tspan class="orange">original:</tspan><tspan class="blue"> 15</tspan><tspan class="fg">, </tspan><tspan class="orange">forks:</tspan><tspan class="blue"> 5</tspan><tspan class="fg">}</tspan><tspan x="1332" class="orange">Stars:</tspan><tspan x="1460" class="blue">0</tspan>
+    <tspan x="670" y="794" class="muted">.</tspan><tspan x="700" class="orange">Public commits:</tspan><tspan x="1010" class="blue">239</tspan><tspan x="1332" class="orange">Followers:</tspan><tspan x="1460" class="blue">0</tspan>
+    <tspan x="670" y="828" class="muted">.</tspan><tspan x="700" class="orange">Lines of Code:</tspan><tspan x="1010" class="blue">32,127</tspan><tspan class="fg"> (</tspan><tspan class="green">original public</tspan><tspan class="fg">)</tspan>
+    <tspan x="670" y="862" class="muted">.</tspan><tspan x="700" class="orange">Code footprint:</tspan><tspan x="1010" class="blue">15.3 MB</tspan><tspan class="fg"> original | </tspan><tspan class="blue">1.07 GB</tspan><tspan class="fg"> total</tspan>
   </text>
 </svg>
