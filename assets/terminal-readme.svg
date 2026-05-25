@@ -9,51 +9,47 @@
     .blue { fill: #9bd1ff; }
     .green { fill: #3fb950; }
     .red { fill: #ff5f5f; }
-    .ascii { font: 20px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; white-space: pre; }
-    .term { font: 23px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; white-space: pre; }
-    .head { font: 29px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-weight: 700; white-space: pre; }
+    .ascii { font: 18px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; white-space: pre; }
+    .term { font: 22px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; white-space: pre; }
+    .head { font: 28px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-weight: 700; white-space: pre; }
   </style>
 
   <rect class="bg" width="1600" height="880"/>
   <rect x="1" y="1" width="1598" height="878" fill="none" stroke="#161b22" stroke-width="2"/>
 
   <text class="ascii fg">
-    <tspan x="26" y="54">                     sA25555555522Ar</tspan>
-    <tspan x="26" y="77">                 X53MHHHHMhHHHHhMMMh335X</tspan>
-    <tspan x="26" y="100">              X22H5h5H2hhMhHh5GAGGh23h32h2A</tspan>
-    <tspan x="26" y="123">           r5M3h3Hhh5G5M355h32S5SSMMh2MhH3M2X</tspan>
-    <tspan x="26" y="146">          5HGGSSSSSSG5siiirXA252A3HHMGGhShMMH52</tspan>
-    <tspan x="26" y="169">        AHSSSSS##Sh22r;;;::;:;;iiiXMS###SSSSSSSMA</tspan>
-    <tspan x="26" y="192">       3S#######9H;;;iii22As;:::;;;;r5G9#######SS5</tspan>
-    <tspan x="26" y="215">     rhGSSSSS####Hi:riirirrsXXi;;ir::irG9999999###</tspan>
-    <tspan x="26" y="238">    rA225555333hhMX;iiiiX535i:;iAA5::::h##########</tspan>
-    <tspan x="26" y="261">   i23hhhhhhh333333M3iiAhhh5rr2A;sA:::;A5553333hhM</tspan>
-    <tspan x="26" y="284">   A55555555555555h2223hhh33523552i:::;5hhh3333355</tspan>
-    <tspan x="26" y="307">  s555555555555555AsXAA53h333552As::::X55555555555</tspan>
-    <tspan x="26" y="330"> ;25555555555555555XsAA5335222553s:::;255555555555</tspan>
-    <tspan x="26" y="353"> s55555555555555555AsA22AXsXX2533A,,:r555555555555</tspan>
-    <tspan x="26" y="376"> A555555555555555555XsssrsXA223335;::2555555555555</tspan>
-    <tspan x="26" y="399">;55555555555555555552rrirsA3333335A;25555555555555</tspan>
-    <tspan x="26" y="422">r55555555555555335555352XrA33333555MssA5353h555555</tspan>
-    <tspan x="26" y="445">s33335555555555A2553Ar::22XA5hh33H##hXAsA552555555</tspan>
-    <tspan x="26" y="468">X33333333333335A333X2Xi;HSShA23G##SSG23hA552235555</tspan>
-    <tspan x="26" y="491">s3333333333335A23332A5sr5S#G52H9#SG3sisA3M35A25555</tspan>
-    <tspan x="26" y="514">i3333333333333A33322hArrAHX;iXrsG5iiirr225##h5h355</tspan>
-    <tspan x="26" y="537">;3hhhhhhhhhh253M322MhArirr55rsr;sssrrX55352MM325Gh</tspan>
-    <tspan x="26" y="560"> Ahhhhhhhh355A2525Mh2Xsrrrs5rissrrrsXA23hh2h3223hS</tspan>
-    <tspan x="26" y="583"> shhhhhhh5XsA35AX3552XsXXsssrXssXXXXXXA22555552225</tspan>
-    <tspan x="26" y="606">  2MMMM53h2XsX2AXA2AAXXXXXss2sssssXXXsXXA2XA5AA225</tspan>
-    <tspan x="26" y="629">  ihMMM3335srsXX2AXXXXXXXXsssssssssssrrrsAXAAAAA23</tspan>
-    <tspan x="26" y="652">   XHHHh555XXXA2XXXsssXXXXXXXXXXXssssssssXAA2AAX25</tspan>
-    <tspan x="26" y="675">    2SSh222AAAXsXsssssssXXXsssXXXXsrrrrrsrrsAA2255</tspan>
-    <tspan x="26" y="698">     5GAAXXXsrrrssssssssXXXXsXssXXsrrrrrrrririXAAX</tspan>
-    <tspan x="26" y="721">      i2XXXss:rirssrsssXXssssXssXXXsrrrrirrii;iss</tspan>
-    <tspan x="26" y="744">       rrrriiiissrrrsssXsssssssssXXsrrrriiirr;;;i</tspan>
-    <tspan x="26" y="767">         i:i;:;;rrrrssXXXXXXsssXssXsrrrriiiiii;i ;</tspan>
-    <tspan x="26" y="790">          ii;:;irirrssXssXsXssXsssXXsrrriiiii;;</tspan>
-    <tspan x="26" y="813">            ;::;iiirssXsXXsssssssssXsrrriiii;</tspan>
-    <tspan x="26" y="836">               iiiirsssXsssssssssssssrrii;</tspan>
-    <tspan x="26" y="859">                  iirrrssssssssssssrri;</tspan>
+    <tspan x="72" y="88">                2Xs              sX2</tspan>
+    <tspan x="72" y="110">             5XA Xrrrr    r X  rXs A A2</tspan>
+    <tspan x="72" y="132">           Arrrs srrr sssrsrs   rX X X X2</tspan>
+    <tspan x="72" y="154">         A         r5Mhh52AAA2X          sA</tspan>
+    <tspan x="72" y="176">        r        AA5MM5MGMGMMhh5r          rh</tspan>
+    <tspan x="72" y="198">      5         sMMhhh5AA25MGGGMMhX          2</tspan>
+    <tspan x="72" y="220">     5           MhhM5h2A2h5Mh22GMM2</tspan>
+    <tspan x="72" y="242">    5XsXXsXXXXXss5AhMhX  Ahh522XGGG5</tspan>
+    <tspan x="72" y="264">   hX              XA    XAX 2X5GGG2ssXXXXXXXX</tspan>
+    <tspan x="72" y="286">   2             25AX     ssXA2MGGMXssssssssss</tspan>
+    <tspan x="72" y="308">  5              A522X  ssXXss2GGGhssXXXXXXXXX</tspan>
+    <tspan x="72" y="330">  A               22XXXA22AX  AGGGAsssXXXXXXXX</tspan>
+    <tspan x="72" y="352"> M                X225552AXs   MGhsssXXXXXXXXX</tspan>
+    <tspan x="72" y="374"> 5                 2hh55A     sAh ssssXXXXXXXX</tspan>
+    <tspan x="72" y="396"> 2            ss     A25A     Xsi52XsssrXXXXXX</tspan>
+    <tspan x="72" y="418"> A            AX  A5MGssAA   r   XAA2  XsXXXXX</tspan>
+    <tspan x="72" y="440"> A           XA   XXhh   iAs     s2sXX XXssssX</tspan>
+    <tspan x="72" y="462"> A           AX  sAsAhX  A2Ai  s2hh2X   AX</tspan>
+    <tspan x="72" y="484"> 2          sX  XA sh52X2h5AM22hh52XsX  i s</tspan>
+    <tspan x="72" y="506"> h        rsAs XX  X2h55XXh5555552XX  XssXA</tspan>
+    <tspan x="72" y="528">  X      XAA XAA ssA2222525555222AAXXssrXXXXs</tspan>
+    <tspan x="72" y="550">  5    s  22AXX2XXAA222225A55222222AAXAXsAAAX</tspan>
+    <tspan x="72" y="572">   X   r  A5522AA22222222222222222552A2AAAAAs</tspan>
+    <tspan x="72" y="594">   h   r  X22AX22222222222222225555522AAXAAA</tspan>
+    <tspan x="72" y="616">    2  rXXXAA2525522222222222225555555h2AAXX s</tspan>
+    <tspan x="72" y="638">     A AA2225hh5555552222222222255hhh55hhh2A25</tspan>
+    <tspan x="72" y="660">      MA2225h5555555522222222222555hhh5hhG55h</tspan>
+    <tspan x="72" y="682">       MhhhMMMh555555222222222225555hhh55GhhM</tspan>
+    <tspan x="72" y="704">         MhhMMh5h5552222222222222555hhhhhMM</tspan>
+    <tspan x="72" y="726">           MMGhhhh552222222222222555hhhhh</tspan>
+    <tspan x="72" y="748">             MMhhh52222222222225225hhhM</tspan>
+    <tspan x="72" y="770">                hh5552255522252555hh</tspan>
   </text>
 
   <text class="head fg" x="660" y="56">goutham@ItCodinTime <tspan class="muted">--------------------------</tspan></text>
@@ -80,10 +76,11 @@
     <tspan x="670" y="676" class="muted">.</tspan><tspan x="700" class="orange">GitHub:</tspan><tspan x="1030" class="muted">..................</tspan><tspan x="1118" class="blue">ItCodinTime</tspan>
   </text>
 
-  <text class="head fg" x="660" y="744"><tspan class="muted">-</tspan> GitHub Stats <tspan class="muted">-------------------------------</tspan></text>
+  <text class="head fg" x="660" y="716"><tspan class="muted">-</tspan> GitHub Stats <tspan class="muted">-------------------------------</tspan></text>
   <text class="term">
-    <tspan x="670" y="788" class="muted">.</tspan><tspan x="700" class="orange">Repos:</tspan><tspan x="790" class="muted">....</tspan><tspan x="862" class="blue">20</tspan><tspan x="920" class="fg">{</tspan><tspan class="orange">original:</tspan><tspan class="blue"> 15</tspan><tspan class="fg">, </tspan><tspan class="orange">forks:</tspan><tspan class="blue"> 5</tspan><tspan class="fg">}</tspan><tspan x="1295" class="fg">|</tspan><tspan x="1332" class="orange">Stars:</tspan><tspan x="1516" class="blue">0</tspan>
-    <tspan x="670" y="824" class="muted">.</tspan><tspan x="700" class="orange">Commits:</tspan><tspan x="840" class="muted">...................</tspan><tspan x="1118" class="blue">239</tspan><tspan x="1295" class="fg">|</tspan><tspan x="1332" class="orange">Followers:</tspan><tspan x="1516" class="blue">0</tspan>
-    <tspan x="670" y="860" class="muted">.</tspan><tspan x="700" class="orange">Code indexed:</tspan><tspan x="920" class="muted">...........</tspan><tspan x="1118" class="blue">2.03 MB</tspan><tspan class="fg"> (</tspan><tspan class="green">original</tspan><tspan class="fg">, </tspan><tspan class="red">public</tspan><tspan class="fg">)</tspan>
+    <tspan x="670" y="760" class="muted">.</tspan><tspan x="700" class="orange">Repos:</tspan><tspan x="790" class="muted">....</tspan><tspan x="862" class="blue">20</tspan><tspan x="920" class="fg">{</tspan><tspan class="orange">original:</tspan><tspan class="blue"> 15</tspan><tspan class="fg">, </tspan><tspan class="orange">forks:</tspan><tspan class="blue"> 5</tspan><tspan class="fg">}</tspan><tspan x="1295" class="fg">|</tspan><tspan x="1332" class="orange">Stars:</tspan><tspan x="1516" class="blue">0</tspan>
+    <tspan x="670" y="794" class="muted">.</tspan><tspan x="700" class="orange">Public commits:</tspan><tspan x="960" class="muted">..........</tspan><tspan x="1118" class="blue">239</tspan><tspan x="1295" class="fg">|</tspan><tspan x="1332" class="orange">Followers:</tspan><tspan x="1516" class="blue">0</tspan>
+    <tspan x="670" y="828" class="muted">.</tspan><tspan x="700" class="orange">Lines of Code:</tspan><tspan x="960" class="muted">.........</tspan><tspan x="1118" class="blue">32,127</tspan><tspan class="fg"> (</tspan><tspan class="green">original public</tspan><tspan class="fg">)</tspan>
+    <tspan x="670" y="862" class="muted">.</tspan><tspan x="700" class="orange">Code footprint:</tspan><tspan x="960" class="muted">........</tspan><tspan x="1118" class="blue">15.3 MB</tspan><tspan class="fg"> original | </tspan><tspan class="blue">1.07 GB</tspan><tspan class="fg"> total</tspan>
   </text>
 </svg>
