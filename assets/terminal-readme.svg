@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="880" viewBox="0 0 1600 880" role="img" aria-labelledby="title desc">
+  <title id="title">Goutham Ronanki terminal profile</title>
+  <desc id="desc">A neofetch-style GitHub profile card with ASCII portrait art and public GitHub stats.</desc>
+  <style>
+    .bg { fill: #0d1117; }
+    .fg { fill: #c9d1d9; }
+    .muted { fill: #7d8590; }
+    .orange { fill: #ff9f43; }
+    .blue { fill: #9bd1ff; }
+    .green { fill: #3fb950; }
+    .red { fill: #ff5f5f; }
+    .ascii { font: 20px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; white-space: pre; }
+    .term { font: 23px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; white-space: pre; }
+    .head { font: 29px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-weight: 700; white-space: pre; }
+  </style>
+
+  <rect class="bg" width="1600" height="880"/>
+  <rect x="1" y="1" width="1598" height="878" fill="none" stroke="#161b22" stroke-width="2"/>
+
+  <text class="ascii fg">
+    <tspan x="26" y="54">                     sA25555555522Ar</tspan>
+    <tspan x="26" y="77">                 X53MHHHHMhHHHHhMMMh335X</tspan>
+    <tspan x="26" y="100">              X22H5h5H2hhMhHh5GAGGh23h32h2A</tspan>
+    <tspan x="26" y="123">           r5M3h3Hhh5G5M355h32S5SSMMh2MhH3M2X</tspan>
+    <tspan x="26" y="146">          5HGGSSSSSSG5siiirXA252A3HHMGGhShMMH52</tspan>
+    <tspan x="26" y="169">        AHSSSSS##Sh22r;;;::;:;;iiiXMS###SSSSSSSMA</tspan>
+    <tspan x="26" y="192">       3S#######9H;;;iii22As;:::;;;;r5G9#######SS5</tspan>
+    <tspan x="26" y="215">     rhGSSSSS####Hi:riirirrsXXi;;ir::irG9999999###</tspan>
+    <tspan x="26" y="238">    rA225555333hhMX;iiiiX535i:;iAA5::::h##########</tspan>
+    <tspan x="26" y="261">   i23hhhhhhh333333M3iiAhhh5rr2A;sA:::;A5553333hhM</tspan>
+    <tspan x="26" y="284">   A55555555555555h2223hhh33523552i:::;5hhh3333355</tspan>
+    <tspan x="26" y="307">  s555555555555555AsXAA53h333552As::::X55555555555</tspan>
+    <tspan x="26" y="330"> ;25555555555555555XsAA5335222553s:::;255555555555</tspan>
+    <tspan x="26" y="353"> s55555555555555555AsA22AXsXX2533A,,:r555555555555</tspan>
+    <tspan x="26" y="376"> A555555555555555555XsssrsXA223335;::2555555555555</tspan>
+    <tspan x="26" y="399">;55555555555555555552rrirsA3333335A;25555555555555</tspan>
+    <tspan x="26" y="422">r55555555555555335555352XrA33333555MssA5353h555555</tspan>
+    <tspan x="26" y="445">s33335555555555A2553Ar::22XA5hh33H##hXAsA552555555</tspan>
+    <tspan x="26" y="468">X33333333333335A333X2Xi;HSShA23G##SSG23hA552235555</tspan>
+    <tspan x="26" y="491">s3333333333335A23332A5sr5S#G52H9#SG3sisA3M35A25555</tspan>
+    <tspan x="26" y="514">i3333333333333A33322hArrAHX;iXrsG5iiirr225##h5h355</tspan>
+    <tspan x="26" y="537">;3hhhhhhhhhh253M322MhArirr55rsr;sssrrX55352MM325Gh</tspan>
+    <tspan x="26" y="560"> Ahhhhhhhh355A2525Mh2Xsrrrs5rissrrrsXA23hh2h3223hS</tspan>
+    <tspan x="26" y="583"> shhhhhhh5XsA35AX3552XsXXsssrXssXXXXXXA22555552225</tspan>
+    <tspan x="26" y="606">  2MMMM53h2XsX2AXA2AAXXXXXss2sssssXXXsXXA2XA5AA225</tspan>
+    <tspan x="26" y="629">  ihMMM3335srsXX2AXXXXXXXXsssssssssssrrrsAXAAAAA23</tspan>
+    <tspan x="26" y="652">   XHHHh555XXXA2XXXsssXXXXXXXXXXXssssssssXAA2AAX25</tspan>
+    <tspan x="26" y="675">    2SSh222AAAXsXsssssssXXXsssXXXXsrrrrrsrrsAA2255</tspan>
+    <tspan x="26" y="698">     5GAAXXXsrrrssssssssXXXXsXssXXsrrrrrrrririXAAX</tspan>
+    <tspan x="26" y="721">      i2XXXss:rirssrsssXXssssXssXXXsrrrrirrii;iss</tspan>
+    <tspan x="26" y="744">       rrrriiiissrrrsssXsssssssssXXsrrrriiirr;;;i</tspan>
+    <tspan x="26" y="767">         i:i;:;;rrrrssXXXXXXsssXssXsrrrriiiiii;i ;</tspan>
+    <tspan x="26" y="790">          ii;:;irirrssXssXsXssXsssXXsrrriiiii;;</tspan>
+    <tspan x="26" y="813">            ;::;iiirssXsXXsssssssssXsrrriiii;</tspan>
+    <tspan x="26" y="836">               iiiirsssXsssssssssssssrrii;</tspan>
+    <tspan x="26" y="859">                  iirrrssssssssssssrri;</tspan>
+  </text>
+
+  <text class="head fg" x="660" y="56">goutham@ItCodinTime <tspan class="muted">--------------------------</tspan></text>
+
+  <text class="term">
+    <tspan x="670" y="96" class="muted">.</tspan><tspan x="700" class="orange">OS:</tspan><tspan x="812" class="muted">.....................</tspan><tspan x="1118" class="blue">macOS, Linux, Web</tspan>
+    <tspan x="670" y="132" class="muted">.</tspan><tspan x="700" class="orange">Uptime:</tspan><tspan x="812" class="muted">.................</tspan><tspan x="1118" class="blue">since 2023-07-28</tspan>
+    <tspan x="670" y="168" class="muted">.</tspan><tspan x="700" class="orange">Host:</tspan><tspan x="812" class="muted">...................</tspan><tspan x="1118" class="blue">PWSHS '27 / founder / researcher</tspan>
+    <tspan x="670" y="204" class="muted">.</tspan><tspan x="700" class="orange">Kernel:</tspan><tspan x="812" class="muted">.................</tspan><tspan x="1118" class="blue">AI systems, RAG, NEAT experiments</tspan>
+    <tspan x="670" y="240" class="muted">.</tspan><tspan x="700" class="orange">IDE:</tspan><tspan x="812" class="muted">....................</tspan><tspan x="1118" class="blue">VS Code, Cursor, GitHub</tspan>
+
+    <tspan x="670" y="312" class="muted">.</tspan><tspan x="700" class="orange">Languages.Programming:</tspan><tspan x="1030" class="muted">.....</tspan><tspan x="1118" class="blue">Python, TypeScript, JavaScript</tspan>
+    <tspan x="670" y="348" class="muted">.</tspan><tspan x="700" class="orange">Languages.Computer:</tspan><tspan x="1030" class="muted">........</tspan><tspan x="1118" class="blue">HTML, CSS, SQL, Java, C++</tspan>
+    <tspan x="670" y="384" class="muted">.</tspan><tspan x="700" class="orange">Languages.Real:</tspan><tspan x="1030" class="muted">............</tspan><tspan x="1118" class="blue">English, debate evidence</tspan>
+
+    <tspan x="670" y="456" class="muted">.</tspan><tspan x="700" class="orange">Focus.Software:</tspan><tspan x="1030" class="muted">............</tspan><tspan x="1118" class="blue">Agents, RAG, automation loops</tspan>
+    <tspan x="670" y="492" class="muted">.</tspan><tspan x="700" class="orange">Focus.Hardware:</tspan><tspan x="1030" class="muted">............</tspan><tspan x="1118" class="blue">FTC 30801 + 11419 strategy</tspan>
+  </text>
+
+  <text class="head fg" x="660" y="560"><tspan class="muted">-</tspan> Contact <tspan class="muted">------------------------------------</tspan></text>
+  <text class="term">
+    <tspan x="670" y="604" class="muted">.</tspan><tspan x="700" class="orange">Email.Personal:</tspan><tspan x="1030" class="muted">..........</tspan><tspan x="1118" class="blue">gouthamronanki@gmail.com</tspan>
+    <tspan x="670" y="640" class="muted">.</tspan><tspan x="700" class="orange">LinkedIn:</tspan><tspan x="1030" class="muted">................</tspan><tspan x="1118" class="blue">goutham-ronanki</tspan>
+    <tspan x="670" y="676" class="muted">.</tspan><tspan x="700" class="orange">GitHub:</tspan><tspan x="1030" class="muted">..................</tspan><tspan x="1118" class="blue">ItCodinTime</tspan>
+  </text>
+
+  <text class="head fg" x="660" y="744"><tspan class="muted">-</tspan> GitHub Stats <tspan class="muted">-------------------------------</tspan></text>
+  <text class="term">
+    <tspan x="670" y="788" class="muted">.</tspan><tspan x="700" class="orange">Repos:</tspan><tspan x="790" class="muted">....</tspan><tspan x="862" class="blue">20</tspan><tspan x="920" class="fg">{</tspan><tspan class="orange">original:</tspan><tspan class="blue"> 15</tspan><tspan class="fg">, </tspan><tspan class="orange">forks:</tspan><tspan class="blue"> 5</tspan><tspan class="fg">}</tspan><tspan x="1295" class="fg">|</tspan><tspan x="1332" class="orange">Stars:</tspan><tspan x="1516" class="blue">0</tspan>
+    <tspan x="670" y="824" class="muted">.</tspan><tspan x="700" class="orange">Commits:</tspan><tspan x="840" class="muted">...................</tspan><tspan x="1118" class="blue">239</tspan><tspan x="1295" class="fg">|</tspan><tspan x="1332" class="orange">Followers:</tspan><tspan x="1516" class="blue">0</tspan>
+    <tspan x="670" y="860" class="muted">.</tspan><tspan x="700" class="orange">Code indexed:</tspan><tspan x="920" class="muted">...........</tspan><tspan x="1118" class="blue">2.03 MB</tspan><tspan class="fg"> (</tspan><tspan class="green">original</tspan><tspan class="fg">, </tspan><tspan class="red">public</tspan><tspan class="fg">)</tspan>
+  </text>
+</svg>
