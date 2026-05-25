@@ -9,7 +9,7 @@
     .blue { fill: #9bd1ff; }
     .green { fill: #3fb950; }
     .red { fill: #ff5f5f; }
-    .ascii { font: 15px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; white-space: pre; }
+    .ascii { font: 18px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; white-space: pre; }
     .term { font: 22px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; white-space: pre; }
     .head { font: 28px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-weight: 700; white-space: pre; }
   </style>
@@ -17,50 +17,33 @@
   <rect class="bg" width="1600" height="880"/>
   <rect x="1" y="1" width="1598" height="878" fill="none" stroke="#161b22" stroke-width="2"/>
 
-  <text class="ascii fg">
-    <tspan x="42" y="58">                        .-^^^^^^^^^^-.</tspan>
-    <tspan x="42" y="76">                    .-''              ''-.</tspan>
-    <tspan x="42" y="94">                  .'      .-''''-.       '.</tspan>
-    <tspan x="42" y="112">                 /      .'  ____  '.       \</tspan>
-    <tspan x="42" y="130">                /      /   / __ \\   \\       \</tspan>
-    <tspan x="42" y="148">               |      |   | |__| |   |      |</tspan>
-    <tspan x="42" y="166">               |      |    \\____/    |      |</tspan>
-    <tspan x="42" y="184">               |      |  [====][====] |      |</tspan>
-    <tspan x="42" y="202">               |      |      __       |      |</tspan>
-    <tspan x="42" y="220">               |       \\    \\__/    /       |</tspan>
-    <tspan x="42" y="238">                \\       '.        .'       /</tspan>
-    <tspan x="42" y="256">                 '.       '-.__.-'       .'</tspan>
-    <tspan x="42" y="274">                   '-.                .-'</tspan>
-    <tspan x="42" y="292">                      '---._______.---'</tspan>
-    <tspan x="42" y="310"></tspan>
-    <tspan x="42" y="328">        .--.                                      .--.</tspan>
-    <tspan x="42" y="346">       / /\\ \\                                    / /\\ \\</tspan>
-    <tspan x="42" y="364">      / /  \\ \\                                  / /  \\ \\</tspan>
-    <tspan x="42" y="382">     /_/    \\_\\                                /_/    \\_\\</tspan>
-    <tspan x="42" y="400">       \\      /                                  \\      /</tspan>
-    <tspan x="42" y="418">        \\    /                                    \\    /</tspan>
-    <tspan x="42" y="436">         \\  /                                      \\  /</tspan>
-    <tspan x="42" y="454">          ||                                        ||</tspan>
-    <tspan x="42" y="472">          ||                                        ||</tspan>
-    <tspan x="42" y="490">          ||                                        ||</tspan>
-    <tspan x="42" y="508"></tspan>
-    <tspan x="42" y="526">                    .-+################+-.</tspan>
-    <tspan x="42" y="544">                .-+#%%%%%%%%%%%%%%%%%%%%%%#+-.</tspan>
-    <tspan x="42" y="562">              .=#%%%%#*+=----------=+*#%%%%=.</tspan>
-    <tspan x="42" y="580">             -#%%%*=.                  .=*%%%-</tspan>
-    <tspan x="42" y="598">            =%%%+.      .-+******+-.      .+%%=</tspan>
-    <tspan x="42" y="616">           -%%%:       =############=       :%%%-</tspan>
-    <tspan x="42" y="634">           #%%+       -###%%%%%%%%###-       +%%#</tspan>
-    <tspan x="42" y="652">          .%%#        +%%%#++++++#%%%+        #%%.</tspan>
-    <tspan x="42" y="670">           #%%+        +#%%######%%#+        +%%#</tspan>
-    <tspan x="42" y="688">           -%%%:         .-======-.         :%%%-</tspan>
-    <tspan x="42" y="706">            =%%%+.        .------.        .+%%=</tspan>
-    <tspan x="42" y="724">             -#%%%*=.                  .=*%%%-</tspan>
-    <tspan x="42" y="742">               =#%%%%#*+=----------=+*#%%%%=</tspan>
-    <tspan x="42" y="760">                 -+#%%%%%%%%%%%%%%%%%%%%#+-</tspan>
-    <tspan x="42" y="778">                    .-+################+-.</tspan>
-    <tspan x="42" y="796">                       '--------------'</tspan>
-  </text>
+  <g>
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 330 410" to="360 330 410" dur="6s" repeatCount="indefinite"/>
+    <text class="ascii fg">
+      <tspan x="82" y="210">                      @</tspan>
+      <tspan x="82" y="232">               $$$$$$#$#$ $ $ $</tspan>
+      <tspan x="82" y="254">           #$$#=#=#!**#*# ##$#$###$</tspan>
+      <tspan x="82" y="276">         *#*##*:*:!:!!~!~!~!~*=*!#!#*#</tspan>
+      <tspan x="82" y="298">       **!!*:!~!!==.==.=.==.=!!~!:***##</tspan>
+      <tspan x="82" y="320">      !!!!:=!,;,:::.::.::.::.:=;,!-!:****</tspan>
+      <tspan x="82" y="342">     =!===;;::~~~~,~,,.,~,~~~.:.;.;==!!!!*</tspan>
+      <tspan x="82" y="364">    ===;;;::~~,,,,........,.,,,~~::;;===!!=</tspan>
+      <tspan x="82" y="386">    =;;;;:~~--.................,,~~::;,====</tspan>
+      <tspan x="82" y="408">    ;;:::~--,...................,-~~::;;,;=;</tspan>
+      <tspan x="82" y="430">    ::::~.-,.......        ......,-.~:.:;;;;</tspan>
+      <tspan x="82" y="452">    ::::~~--,.....          .....,,-~~:::;::</tspan>
+      <tspan x="82" y="474">    -~~~~~---,,.,~:         -....,-~.~:::::~</tspan>
+      <tspan x="82" y="496">     -~~~~:~~~~~:;=***=  !!=:--,---~.~~~~~~</tspan>
+      <tspan x="82" y="518">      -~~~:::;;==!##$@@$$$*!!;:~::~~~~~~~-</tspan>
+      <tspan x="82" y="540">       ,-~::;;==!*#$$$$$$##*!=;;:::~~~~-,</tspan>
+      <tspan x="82" y="562">        .,~~;;==!!*######***!==;:::~---.</tspan>
+      <tspan x="82" y="584">          ..,~:;;=!****!!*!==;;;:~~-..</tspan>
+      <tspan x="82" y="606">             ..,-::;;;;;;;;;::~,-,..</tspan>
+      <tspan x="82" y="628">                  . ,,,,,,,,..</tspan>
+    </text>
+  </g>
+
+  <text class="term muted" x="182" y="722">spinning-donut.exe --ascii</text>
 
   <text class="head fg" x="660" y="56">goutham@ItCodinTime <tspan class="muted">--------------------------</tspan></text>
 
