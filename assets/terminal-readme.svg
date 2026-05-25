@@ -9,7 +9,7 @@
     .blue { fill: #9bd1ff; }
     .green { fill: #3fb950; }
     .red { fill: #ff5f5f; }
-    .ascii { font: 18px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; white-space: pre; }
+    .ascii { font: 15px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; white-space: pre; }
     .term { font: 22px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; white-space: pre; }
     .head { font: 28px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-weight: 700; white-space: pre; }
   </style>
@@ -18,38 +18,48 @@
   <rect x="1" y="1" width="1598" height="878" fill="none" stroke="#161b22" stroke-width="2"/>
 
   <text class="ascii fg">
-    <tspan x="72" y="88">                2Xs              sX2</tspan>
-    <tspan x="72" y="110">             5XA Xrrrr    r X  rXs A A2</tspan>
-    <tspan x="72" y="132">           Arrrs srrr sssrsrs   rX X X X2</tspan>
-    <tspan x="72" y="154">         A         r5Mhh52AAA2X          sA</tspan>
-    <tspan x="72" y="176">        r        AA5MM5MGMGMMhh5r          rh</tspan>
-    <tspan x="72" y="198">      5         sMMhhh5AA25MGGGMMhX          2</tspan>
-    <tspan x="72" y="220">     5           MhhM5h2A2h5Mh22GMM2</tspan>
-    <tspan x="72" y="242">    5XsXXsXXXXXss5AhMhX  Ahh522XGGG5</tspan>
-    <tspan x="72" y="264">   hX              XA    XAX 2X5GGG2ssXXXXXXXX</tspan>
-    <tspan x="72" y="286">   2             25AX     ssXA2MGGMXssssssssss</tspan>
-    <tspan x="72" y="308">  5              A522X  ssXXss2GGGhssXXXXXXXXX</tspan>
-    <tspan x="72" y="330">  A               22XXXA22AX  AGGGAsssXXXXXXXX</tspan>
-    <tspan x="72" y="352"> M                X225552AXs   MGhsssXXXXXXXXX</tspan>
-    <tspan x="72" y="374"> 5                 2hh55A     sAh ssssXXXXXXXX</tspan>
-    <tspan x="72" y="396"> 2            ss     A25A     Xsi52XsssrXXXXXX</tspan>
-    <tspan x="72" y="418"> A            AX  A5MGssAA   r   XAA2  XsXXXXX</tspan>
-    <tspan x="72" y="440"> A           XA   XXhh   iAs     s2sXX XXssssX</tspan>
-    <tspan x="72" y="462"> A           AX  sAsAhX  A2Ai  s2hh2X   AX</tspan>
-    <tspan x="72" y="484"> 2          sX  XA sh52X2h5AM22hh52XsX  i s</tspan>
-    <tspan x="72" y="506"> h        rsAs XX  X2h55XXh5555552XX  XssXA</tspan>
-    <tspan x="72" y="528">  X      XAA XAA ssA2222525555222AAXXssrXXXXs</tspan>
-    <tspan x="72" y="550">  5    s  22AXX2XXAA222225A55222222AAXAXsAAAX</tspan>
-    <tspan x="72" y="572">   X   r  A5522AA22222222222222222552A2AAAAAs</tspan>
-    <tspan x="72" y="594">   h   r  X22AX22222222222222225555522AAXAAA</tspan>
-    <tspan x="72" y="616">    2  rXXXAA2525522222222222225555555h2AAXX s</tspan>
-    <tspan x="72" y="638">     A AA2225hh5555552222222222255hhh55hhh2A25</tspan>
-    <tspan x="72" y="660">      MA2225h5555555522222222222555hhh5hhG55h</tspan>
-    <tspan x="72" y="682">       MhhhMMMh555555222222222225555hhh55GhhM</tspan>
-    <tspan x="72" y="704">         MhhMMh5h5552222222222222555hhhhhMM</tspan>
-    <tspan x="72" y="726">           MMGhhhh552222222222222555hhhhh</tspan>
-    <tspan x="72" y="748">             MMhhh52222222222225225hhhM</tspan>
-    <tspan x="72" y="770">                hh5552255522252555hh</tspan>
+    <tspan x="42" y="58">                        .-^^^^^^^^^^-.</tspan>
+    <tspan x="42" y="76">                    .-''              ''-.</tspan>
+    <tspan x="42" y="94">                  .'      .-''''-.       '.</tspan>
+    <tspan x="42" y="112">                 /      .'  ____  '.       \</tspan>
+    <tspan x="42" y="130">                /      /   / __ \\   \\       \</tspan>
+    <tspan x="42" y="148">               |      |   | |__| |   |      |</tspan>
+    <tspan x="42" y="166">               |      |    \\____/    |      |</tspan>
+    <tspan x="42" y="184">               |      |  [====][====] |      |</tspan>
+    <tspan x="42" y="202">               |      |      __       |      |</tspan>
+    <tspan x="42" y="220">               |       \\    \\__/    /       |</tspan>
+    <tspan x="42" y="238">                \\       '.        .'       /</tspan>
+    <tspan x="42" y="256">                 '.       '-.__.-'       .'</tspan>
+    <tspan x="42" y="274">                   '-.                .-'</tspan>
+    <tspan x="42" y="292">                      '---._______.---'</tspan>
+    <tspan x="42" y="310"></tspan>
+    <tspan x="42" y="328">        .--.                                      .--.</tspan>
+    <tspan x="42" y="346">       / /\\ \\                                    / /\\ \\</tspan>
+    <tspan x="42" y="364">      / /  \\ \\                                  / /  \\ \\</tspan>
+    <tspan x="42" y="382">     /_/    \\_\\                                /_/    \\_\\</tspan>
+    <tspan x="42" y="400">       \\      /                                  \\      /</tspan>
+    <tspan x="42" y="418">        \\    /                                    \\    /</tspan>
+    <tspan x="42" y="436">         \\  /                                      \\  /</tspan>
+    <tspan x="42" y="454">          ||                                        ||</tspan>
+    <tspan x="42" y="472">          ||                                        ||</tspan>
+    <tspan x="42" y="490">          ||                                        ||</tspan>
+    <tspan x="42" y="508"></tspan>
+    <tspan x="42" y="526">                    .-+################+-.</tspan>
+    <tspan x="42" y="544">                .-+#%%%%%%%%%%%%%%%%%%%%%%#+-.</tspan>
+    <tspan x="42" y="562">              .=#%%%%#*+=----------=+*#%%%%=.</tspan>
+    <tspan x="42" y="580">             -#%%%*=.                  .=*%%%-</tspan>
+    <tspan x="42" y="598">            =%%%+.      .-+******+-.      .+%%=</tspan>
+    <tspan x="42" y="616">           -%%%:       =############=       :%%%-</tspan>
+    <tspan x="42" y="634">           #%%+       -###%%%%%%%%###-       +%%#</tspan>
+    <tspan x="42" y="652">          .%%#        +%%%#++++++#%%%+        #%%.</tspan>
+    <tspan x="42" y="670">           #%%+        +#%%######%%#+        +%%#</tspan>
+    <tspan x="42" y="688">           -%%%:         .-======-.         :%%%-</tspan>
+    <tspan x="42" y="706">            =%%%+.        .------.        .+%%=</tspan>
+    <tspan x="42" y="724">             -#%%%*=.                  .=*%%%-</tspan>
+    <tspan x="42" y="742">               =#%%%%#*+=----------=+*#%%%%=</tspan>
+    <tspan x="42" y="760">                 -+#%%%%%%%%%%%%%%%%%%%%#+-</tspan>
+    <tspan x="42" y="778">                    .-+################+-.</tspan>
+    <tspan x="42" y="796">                       '--------------'</tspan>
   </text>
 
   <text class="head fg" x="660" y="56">goutham@ItCodinTime <tspan class="muted">--------------------------</tspan></text>
