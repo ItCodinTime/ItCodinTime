@@ -193,8 +193,8 @@
   <text class="head fg" x="660" y="716"><tspan class="muted">-</tspan> GitHub Stats <tspan class="muted">-------------------------------</tspan></text>
   <text class="term">
     <tspan x="670" y="760" class="muted">.</tspan><tspan x="700" class="orange">Repos.Public:</tspan><tspan x="1010" class="blue">24</tspan><tspan class="fg"> total / </tspan><tspan class="blue">16</tspan><tspan class="fg"> original / </tspan><tspan class="blue">8</tspan><tspan class="fg"> forks</tspan>
-    <tspan x="670" y="794" class="muted">.</tspan><tspan x="700" class="orange">Commits.Authored:</tspan><tspan x="1010" class="blue">301</tspan><tspan class="fg"> indexed public commits</tspan>
+    <tspan x="670" y="794" class="muted">.</tspan><tspan x="700" class="orange">Commits.Authored:</tspan><tspan x="1010" class="blue">301</tspan><tspan class="fg"> commits / </tspan><tspan class="green">+59,833</tspan><tspan class="fg"> / </tspan><tspan class="red">-8,915</tspan><tspan class="fg"> LOC</tspan>
     <tspan x="670" y="828" class="muted">.</tspan><tspan x="700" class="orange">Pull.Requests:</tspan><tspan x="1010" class="blue">4</tspan><tspan class="fg"> opened / </tspan><tspan class="blue">1</tspan><tspan class="fg"> merged upstream</tspan>
-    <tspan x="670" y="862" class="muted">.</tspan><tspan x="700" class="orange">Lines.Changed:</tspan><tspan x="1010" class="green">+59,833</tspan><tspan class="fg"> added / </tspan><tspan class="red">-8,915</tspan><tspan class="fg"> removed</tspan>
+    <tspan x="670" y="862" class="muted">.</tspan><tspan x="700" class="orange">Repo.Signals:</tspan><tspan x="1010" class="blue">4</tspan><tspan class="fg"> stars / </tspan><tspan class="blue">1</tspan><tspan class="fg"> fork / </tspan><tspan class="blue">NEAT v1</tspan><tspan class="fg"> released</tspan>
   </text>
 </svg>
