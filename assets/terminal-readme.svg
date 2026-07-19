@@ -9,7 +9,8 @@
     .blue { fill: #9bd1ff; }
     .green { fill: #3fb950; }
     .red { fill: #ff5f5f; }
-    .ascii { font: 18px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; white-space: pre; }
+    .ascii { font: 18px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-variant-ligatures: none; white-space: pre; }
+    .donut-frame { shape-rendering: geometricPrecision; }
     .term { font: 22px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; white-space: pre; }
     .head { font: 28px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-weight: 700; white-space: pre; }
   </style>
@@ -17,8 +18,8 @@
   <rect class="bg" width="1600" height="880"/>
   <rect x="1" y="1" width="1598" height="878" fill="none" stroke="#161b22" stroke-width="2"/>
 
-  <g opacity="1">
-    <animate attributeName="opacity" dur="1.2s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.166667;0.333333;0.5;0.666667;0.833333;1" values="1;0;0;0;0;0;1"/>
+  <g class="donut-frame" opacity="1">
+    <animate attributeName="opacity" dur="2.1s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.166667;0.333333;0.5;0.666667;0.833333;1" values="1;0;0;0;0;0;1"/>
     <text class="ascii fg">
       <tspan x="82" y="210">                 @@ @$ $$ @@ $</tspan>
       <tspan x="82" y="232">            $$$$$$$### ###$#$$$$ $</tspan>
@@ -42,8 +43,8 @@
       <tspan x="82" y="628">                 .,,,--- -, .</tspan>
     </text>
   </g>
-  <g opacity="0">
-    <animate attributeName="opacity" dur="1.2s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.166667;0.333333;0.5;0.666667;0.833333;1" values="0;1;0;0;0;0;0"/>
+  <g class="donut-frame" opacity="0" transform="translate(-11 22)">
+    <animate attributeName="opacity" dur="2.1s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.166667;0.333333;0.5;0.666667;0.833333;1" values="0;1;0;0;0;0;0"/>
     <text class="ascii fg">
       <tspan x="82" y="210">           ###$#$#$#$#$#$#$# #=#*$*$</tspan>
       <tspan x="82" y="232">         ##!*#**:!;!!~*~*~*~*~*:######</tspan>
@@ -65,8 +66,8 @@
       <tspan x="82" y="584">                   .....,,,,...</tspan>
     </text>
   </g>
-  <g opacity="0">
-    <animate attributeName="opacity" dur="1.2s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.166667;0.333333;0.5;0.666667;0.833333;1" values="0;0;1;0;0;0;0"/>
+  <g class="donut-frame" opacity="0" transform="translate(-32 33)">
+    <animate attributeName="opacity" dur="2.1s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.166667;0.333333;0.5;0.666667;0.833333;1" values="0;0;1;0;0;0;0"/>
     <text class="ascii fg">
       <tspan x="82" y="210">          ###$#$#$#$#$#$@@$$@$$$ $</tspan>
       <tspan x="82" y="232">        ***!*!*!=!;#::*:*#:#$= #$**$</tspan>
@@ -87,8 +88,8 @@
       <tspan x="82" y="562">                        ...............</tspan>
     </text>
   </g>
-  <g opacity="0">
-    <animate attributeName="opacity" dur="1.2s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.166667;0.333333;0.5;0.666667;0.833333;1" values="0;0;0;1;0;0;0"/>
+  <g class="donut-frame" opacity="0" transform="translate(-16 0)">
+    <animate attributeName="opacity" dur="2.1s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.166667;0.333333;0.5;0.666667;0.833333;1" values="0;0;0;1;0;0;0"/>
     <text class="ascii fg">
       <tspan x="82" y="210">          #$$$@@@@@@@$$#</tspan>
       <tspan x="82" y="232">        !###$$$*$$!$!$$$#$#</tspan>
@@ -112,8 +113,8 @@
       <tspan x="82" y="628">                              ......</tspan>
     </text>
   </g>
-  <g opacity="0">
-    <animate attributeName="opacity" dur="1.2s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.166667;0.333333;0.5;0.666667;0.833333;1" values="0;0;0;0;1;0;0"/>
+  <g class="donut-frame" opacity="0" transform="translate(43 0)">
+    <animate attributeName="opacity" dur="2.1s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.166667;0.333333;0.5;0.666667;0.833333;1" values="0;0;0;0;1;0;0"/>
     <text class="ascii fg">
       <tspan x="82" y="210">          $@@@@@$$$###</tspan>
       <tspan x="82" y="232">       ##$$@@!@$$$*#*!!=</tspan>
@@ -137,8 +138,8 @@
       <tspan x="82" y="628">             ...,.-~.~-.~-~-~--,</tspan>
     </text>
   </g>
-  <g opacity="0">
-    <animate attributeName="opacity" dur="1.2s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.166667;0.333333;0.5;0.666667;0.833333;1" values="0;0;0;0;0;1;0"/>
+  <g class="donut-frame" opacity="0" transform="translate(54 0)">
+    <animate attributeName="opacity" dur="2.1s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.166667;0.333333;0.5;0.666667;0.833333;1" values="0;0;0;0;0;1;0"/>
     <text class="ascii fg">
       <tspan x="82" y="210">          $@@$@@$$$####$##</tspan>
       <tspan x="82" y="232">       $$$$@$$$#;####!!!!!**#</tspan>
@@ -170,16 +171,16 @@
   <text class="term">
     <tspan x="670" y="96" class="muted">.</tspan><tspan x="700" class="orange">OS:</tspan><tspan x="1010" class="blue">macOS, Linux, Web</tspan>
     <tspan x="670" y="132" class="muted">.</tspan><tspan x="700" class="orange">Uptime:</tspan><tspan x="1010" class="blue">since 2023-07-28</tspan>
-    <tspan x="670" y="168" class="muted">.</tspan><tspan x="700" class="orange">Host:</tspan><tspan x="1010" class="blue">PWSHS '27 / founder / researcher</tspan>
-    <tspan x="670" y="204" class="muted">.</tspan><tspan x="700" class="orange">Kernel:</tspan><tspan x="1010" class="blue">AI systems, RAG, NEAT experiments</tspan>
-    <tspan x="670" y="240" class="muted">.</tspan><tspan x="700" class="orange">IDE:</tspan><tspan x="1010" class="blue">VS Code, GitHub</tspan>
+    <tspan x="670" y="168" class="muted">.</tspan><tspan x="700" class="orange">Host:</tspan><tspan x="1010" class="blue">PWSHS '27 / Keras ecosystem contributor</tspan>
+    <tspan x="670" y="204" class="muted">.</tspan><tspan x="700" class="orange">Kernel:</tspan><tspan x="1010" class="blue">Founder, researcher, open-source builder</tspan>
+    <tspan x="670" y="240" class="muted">.</tspan><tspan x="700" class="orange">IDE:</tspan><tspan x="1010" class="blue">VS Code, GitHub, Codex</tspan>
 
-    <tspan x="670" y="312" class="muted">.</tspan><tspan x="700" class="orange">Languages.Code:</tspan><tspan x="1010" class="blue">Python, TypeScript, JavaScript</tspan>
-    <tspan x="670" y="348" class="muted">.</tspan><tspan x="700" class="orange">Languages.Tools:</tspan><tspan x="1010" class="blue">HTML, CSS, SQL, Java, C++</tspan>
-    <tspan x="670" y="384" class="muted">.</tspan><tspan x="700" class="orange">Languages.Real:</tspan><tspan x="1010" class="blue">English</tspan>
+    <tspan x="670" y="312" class="muted">.</tspan><tspan x="700" class="orange">Languages:</tspan><tspan x="1010" class="blue">Python, TypeScript, JavaScript, SQL</tspan>
+    <tspan x="670" y="348" class="muted">.</tspan><tspan x="700" class="orange">Stack.AI:</tspan><tspan x="1010" class="blue">Keras, PyTorch, FastAPI, RAG</tspan>
+    <tspan x="670" y="384" class="muted">.</tspan><tspan x="700" class="orange">Stack.Web:</tspan><tspan x="1010" class="blue">Next.js, React, Supabase</tspan>
 
-    <tspan x="670" y="456" class="muted">.</tspan><tspan x="700" class="orange">Focus.Software:</tspan><tspan x="1010" class="blue">Agents, RAG, automation loops</tspan>
-    <tspan x="670" y="492" class="muted">.</tspan><tspan x="700" class="orange">Focus.Hardware:</tspan><tspan x="1010" class="blue">Drones, autonomous systems</tspan>
+    <tspan x="670" y="456" class="muted">.</tspan><tspan x="700" class="orange">Focus.Research:</tspan><tspan x="1010" class="blue">ML optimization, neuroevolution, agents</tspan>
+    <tspan x="670" y="492" class="muted">.</tspan><tspan x="700" class="orange">Focus.Building:</tspan><tspan x="1010" class="blue">AI security, devtools, autonomy</tspan>
   </text>
 
   <text class="head fg" x="660" y="560"><tspan class="muted">-</tspan> Contact <tspan class="muted">------------------------------------</tspan></text>
@@ -191,9 +192,9 @@
 
   <text class="head fg" x="660" y="716"><tspan class="muted">-</tspan> GitHub Stats <tspan class="muted">-------------------------------</tspan></text>
   <text class="term">
-    <tspan x="670" y="760" class="muted">.</tspan><tspan x="700" class="orange">Repos.Public:</tspan><tspan x="1010" class="blue">20</tspan><tspan class="fg"> total / </tspan><tspan class="blue">15</tspan><tspan class="fg"> original / </tspan><tspan class="blue">5</tspan><tspan class="fg"> forks</tspan>
-    <tspan x="670" y="794" class="muted">.</tspan><tspan x="700" class="orange">Commits.All-Time:</tspan><tspan x="1010" class="blue">239</tspan><tspan class="fg"> public authored commits</tspan>
-    <tspan x="670" y="828" class="muted">.</tspan><tspan x="700" class="orange">Code.All-Time:</tspan><tspan x="1010" class="blue">32,127 LOC</tspan><tspan class="fg"> across original public repos</tspan>
-    <tspan x="670" y="862" class="muted">.</tspan><tspan x="700" class="orange">Footprint:</tspan><tspan x="1010" class="blue">15.3 MB</tspan><tspan class="fg"> original / </tspan><tspan class="blue">1.07 GB</tspan><tspan class="fg"> public total</tspan>
+    <tspan x="670" y="760" class="muted">.</tspan><tspan x="700" class="orange">Repos.Public:</tspan><tspan x="1010" class="blue">24</tspan><tspan class="fg"> total / </tspan><tspan class="blue">17</tspan><tspan class="fg"> original / </tspan><tspan class="blue">7</tspan><tspan class="fg"> forks</tspan>
+    <tspan x="670" y="794" class="muted">.</tspan><tspan x="700" class="orange">Commits.Authored:</tspan><tspan x="1010" class="blue">301</tspan><tspan class="fg"> indexed public commits</tspan>
+    <tspan x="670" y="828" class="muted">.</tspan><tspan x="700" class="orange">Pull.Requests:</tspan><tspan x="1010" class="blue">4</tspan><tspan class="fg"> opened / </tspan><tspan class="blue">1</tspan><tspan class="fg"> merged upstream</tspan>
+    <tspan x="670" y="862" class="muted">.</tspan><tspan x="700" class="orange">Repo.Signals:</tspan><tspan x="1010" class="blue">4</tspan><tspan class="fg"> stars / </tspan><tspan class="blue">1</tspan><tspan class="fg"> fork / </tspan><tspan class="blue">NEAT v1</tspan><tspan class="fg"> released</tspan>
   </text>
 </svg>
